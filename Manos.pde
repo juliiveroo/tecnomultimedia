@@ -8,10 +8,8 @@ class Manos {
 //Constructor  
 Manos() {
   mano  = loadImage("hands.png");
-  x     = scX(400);
-  y     = scY(550);
-  ancho = scX(100);
-  alto  = scY(180);
+  x     = 800/2;
+  y     = 550;
   radio = 10;
   paso  = 10;
   }
@@ -20,7 +18,7 @@ void draw() {
   push();
   translate(scX(x), scY(y));
   imageMode(CENTER);
-  image( mano, 0, 0, scX(ancho), scY(alto));
+  image( mano, 0, 0, scX(100), scY(180));
   pop();
   }
 void keyPressed() {

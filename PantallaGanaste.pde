@@ -9,8 +9,8 @@ class PantallaGanaste{
 PantallaGanaste(){
   font    =loadFont("NirmalaUI-Bold-48.vlw");
   texto   = "Has Encontrado La Salida";
-  x       = width/2;
-  y       = height/2;
+  x       = 800/2;
+  y       = 600/2;
   radio   = 50;
   }
 //Funcionalidades  

@@ -15,7 +15,6 @@ class Juego{
   Cuchillo [] arrayCuchillos;
   int cantCuchillos=10;
   Manos manos;
-  import processing.sound.*;
   SoundFile horror;
   
 //Constructor
@@ -49,7 +48,7 @@ Juego(PApplet musica){
 //Funcionalidades
 void draw(){
   if      (pantalla==1)  {pant1.draw();    
-                          reset();}
+                          reset();                                  }
    
   else if (pantalla==2)  {image(door[0],0,0,scX(800),scY(600));
                           image(mano,mouseX,mouseY,scX(50),scY(90));} 
@@ -113,7 +112,7 @@ void mousePressed(){
                      
                      else if(pantalla==4){
                      if (mouseX>scX(50 )  && mouseX<scX(215) && mouseY>scY(50) && mouseY<scY(410)){pantalla=8;}
-                     if (mouseX>scX(330) && mouseX<scX(485) && mouseY>scY(50) && mouseY<scY(410)){pantalla=9;}
+                     if (mouseX>scX(330) && mouseX<scX(485) && mouseY>scY(50) && mouseY<scY(410)){pantalla=7;}
                      if (mouseX>scX(590) && mouseX<scX(750) && mouseY>scY(50) && mouseY<scY(410)){pantalla=6;}}
                      
                      

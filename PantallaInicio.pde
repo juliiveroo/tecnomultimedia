@@ -13,8 +13,8 @@ PantallaInicio(){
   font     = loadFont("NirmalaUI-Bold-48.vlw");
   texto    = "DEVIL'S DOORS";
   press    = "presiona comenzar para iniciar el juego";
-  x        = width/2;
-  y        = height/2;
+  x        = 800/2;
+  y        = 600/2;
   radio    = 85;
   }
 //Funcionalidades  

@@ -7,6 +7,7 @@
 
 */
 Juego juego;
+import processing.sound.*;
 boolean DEBUG=false;
 
 void setup(){
